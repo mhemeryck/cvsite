@@ -1,0 +1,9 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+      args:
+        - HUGO_ENV_ARG=production
+    ports:
+      - "80:80"
