@@ -1,5 +1,5 @@
 # Page settings
-baseURL = "http://mhemeryck.com/"
+baseURL = "https://mhemeryck.com/"
 languageCode = "en"
 title = ""
 theme = "devresume"

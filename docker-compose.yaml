@@ -1,10 +1,25 @@
 version: "3"
 services:
-  nginx:
+  cvsite:
     image: mhemeryck/cvsite
     build:
       context: .
       args:
         - HUGO_ENV_ARG=production
-    ports:
-      - "80:80"
+    networks:
+      - drop
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.cvsite.rule=Host(`${HOST}`)"
+      - "traefik.http.routers.cvsite.entrypoints=websecure"
+      - "traefik.http.routers.cvsite.tls.certresolver=doresolver"
+      - "traefik.http.services.cvsite.loadbalancer.server.port=80"
+      # https redirect
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.routers.redirs.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.redirs.entrypoints=web"
+      - "traefik.http.routers.redirs.middlewares=redirect-to-https"
+
+networks:
+  drop:
+    external: true
