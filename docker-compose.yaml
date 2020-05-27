@@ -1,6 +1,7 @@
 version: "3"
 services:
   nginx:
+    image: mhemeryck/cvsite
     build:
       context: .
       args:
