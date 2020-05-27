@@ -1,0 +1,184 @@
+# Page settings
+baseURL = "http://mhemeryck.com/"
+languageCode = "en"
+title = ""
+theme = "devresume"
+googleAnalytics = "UA-XXXXXXX-Y"
+[params]
+    author = "Martijn Hemeryck"
+    description = "Resume Martijn Hemeryck"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+    [params.profile]
+        enable = true
+        name = "Martijn Hemeryck"
+        tagline = "Dev / Maker / Engineer"
+        avatar = "avatar.png"
+    [params.contact]
+        enable = true
+        location = "Tongeren, BE"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+32 474 69 63 25"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "martijn.hemeryck@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "mhemeryck.com"
+    [params.skills]
+        enable = true
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "python/go/c/c++/shell/java"
+        [[params.skills.list.items]]
+        details = "django/flask/vuejs/html/css"
+        [[params.skills.list.items]]
+        details = "postgresql/mysql/sqlite"
+        [[params.skills.list.items]]
+        details = "vim/git/docker/kubernetes/ci/cd"
+        [[params.skills.list.items]]
+        details = "service-oriented architectures"
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "cross-functional communication"
+        [[params.skills.list.items]]
+        details = "problem solver"
+        [[params.skills.list.items]]
+        details = "agile evangilist"
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "MSc Electrical Engineering"
+        university = "KU Leuven"
+        dates = "2008 - 2010"
+        [[params.education.list]]
+        degree = "BSc Electrical Engineering"
+        university = "KU Leuven"
+        dates = "2004 - 2008"
+    [params.awards]
+        enable = false
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+        name = "Dutch"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Proficient"
+        [[params.languages.list]]
+        name = "French"
+        level = "Intermediate"
+        [[params.languages.list]]
+        name = "German"
+        level = "Elementary"
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Elementary"
+    [params.interests]
+        enable = true
+        [[params.interests.list]]
+        name = "Running"
+        [[params.interests.list]]
+        name = "Electronics"
+        [[params.interests.list]]
+        name = "Maker"
+    [params.summary]
+        enable = true
+        text = "Hi! I'm Martijn, nice to meet you. I'm an electrical engineer by background, specialized in software for embedded software and digital signal processing. Over the years, I've branched into all-round true full-stack software engineering. What all of these fancy titles really mean? I just like to analyze things, take them apart, design them, and build them up again. I'm a dev, a maker. I like to solve problems!"
+    [params.experience]
+        enable = true
+        [[params.experience.list]]
+        title = "Software engineer"
+        dates = "Aug 2018 - Present"
+        company = "CodaBox"
+        details = "CodaBox is an energetic scale-up fintech supporting accountants and bookkeepers in delivering their documents in digital format. I mainly work here as a dev on the monolithic python / django backend that takes care of the retrieval, processing and delivering of documents in digital format. I work on both keeping the current stack operational as well as evolving it on a functional but also technical level e.g. to a more service-oriented like architecture."
+        [[params.experience.list.items]]
+        details = "Backend dev CODA / SODA / E-invoincing platform"
+        [[params.experience.list.items]]
+        details = "Expert python / django"
+        [[params.experience.list.items]]
+        details = "Analyst CODA push delivery"
+        [[params.experience.list]]
+        title = "Software engineer / analyst"
+        dates = "Jul 2016 - Jul 2018"
+        company = "Unleashed"
+        details = "This was my first true job as a software engineer, so I sure did learn a lot here. First, I was part of small cross-functional team to support the marketing efforts, dubbed the 'Mobile Vikings Get & Retain Squad'. Afterwards, this involved into the 'Marketing Automation squad', where I got more into the job of analysis, combined with software development"
+        [[params.experience.list.items]]
+        details = "Analyst marketing automation backend REST API architecture"
+        [[params.experience.list.items]]
+        details = "Mobile Vikings prepaid registration project dev"
+        [[params.experience.list.items]]
+        details = "Analyst full MVNO migration marketing backend"
+        [[params.experience.list]]
+        title = "Research Engineer"
+        dates = "Sept 2012 - Jul 2016"
+        company = "SoundTalks"
+        details = "SoundTalks focuses on supporting different actors in the livestock industry. Their main product at the time was a device to monitor the respiratory health of fattening pigs based on sound, the 'Pig Cough Monitor'. Given the size of the spin-off company at the time, I had various different responsiblities, ranging from the research of the sound analysis itself, to design of the hardware that was used, customer contact as well as on-site support an installations."
+        [[params.experience.list.items]]
+        details = "Lead research & development Pig Cough Monitor algorithm and software"
+        [[params.experience.list.items]]
+        details = "On-site installations and maintenance"
+        [[params.experience.list.items]]
+        details = "Data collection and management"
+        [[params.experience.list.items]]
+        details = "Software development process management"
+        [[params.experience.list.items]]
+        details = "Customer relations"
+        [[params.experience.list]]
+        title = "Research assistant"
+        dates = "Sept 2010 - Aug 2012"
+        company = "KU Leuven Medical Imaging Research Center"
+        details = "Research assistant involved with a number of short-term, focussed projects. Teaching assistant for undergraduate signal processing course."
+        [[params.experience.list.items]]
+        details = "Project: Quantification of lung pathology based on computed tomography"
+        [[params.experience.list.items]]
+        details = "Project: Validation of a noval 3-D volumetric approach to evaluate local bone changes"
+        [[params.experience.list.items]]
+        details = "Software tool for integrated registration and segmentation for 2-D and 3-D follow-up analyses of oral and maxillofacial surgery (CBCT)"
+        [[params.experience.list.items]]
+        details = "Teaching assistant undergraduate digital signal processing course"
+    [params.projects]
+        enable = true
+        [[params.projects.list]]
+        title = "pycoda"
+        meta = "Open Source"
+        tagline = "Python library reading and dumping of CODA format (Belgian bank format)."
+        [[params.projects.list]]
+        title = "evok2mqtt"
+        meta = "Open Source"
+        tagline = "Python project that bridges between a websocket API (evok) and MQTT, to integrate an IOT device into a home automation setup."
+        [[params.projects.list]]
+        title = "modbridge"
+        meta = "Open Source"
+        tagline = "Go project heavily using goroutines to efficiently translate a polling-based protocol (modbus) into a subscribe-based protocol (mqtt)."
+    [params.information]
+        enable = false
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+    [params.social]
+        enable = true
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/mhemeryck"
+        title = "mhemeryck"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/martijn-hemeryck-67896245"
+        title = "martijn-hemeryck"
+        [[params.social.list]]
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/1393391/martyn"
+        title = "martyn"
