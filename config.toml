@@ -90,7 +90,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Maker"
     [params.summary]
         enable = true
-        text = "Hi! I'm Martijn, nice to meet you. I'm an electrical engineer by background, specialized in software for embedded software and digital signal processing. Over the years, I've branched into all-round true full-stack software engineering. What all of these fancy titles really mean? I just like to analyze things, take them apart, design them, and build them up again. I'm a dev, a maker. I like to solve problems!"
+        text = "Hi! I'm Martijn, pleased to meet you. I'm an electrical engineer by background, specialized in software for embedded devices and digital signal processing. Over the years, I've branched into all-round true full-stack software engineering. What do all of these fancy titles really mean? I just like to analyze things, take them apart, design them, and build them up again. I'm a dev, a maker. I like to solve problems!"
     [params.experience]
         enable = true
         [[params.experience.list]]
@@ -108,7 +108,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Software engineer / analyst"
         dates = "Jul 2016 - Jul 2018"
         company = "Unleashed"
-        details = "This was my first true job as a software engineer, so I sure did learn a lot here. First, I was part of small cross-functional team to support the marketing efforts, dubbed the 'Mobile Vikings Get & Retain Squad'. Afterwards, this involved into the 'Marketing Automation squad', where I got more into the job of analysis, combined with software development"
+        details = "This was my first true job as a software engineer, so I sure did learn a lot here. First, I was part of small cross-functional team to support the marketing efforts, dubbed the 'Mobile Vikings Get & Retain Squad'. Afterwards, this involved into the 'Marketing Automation squad', where I got more into the job of analysis, combined with software development."
         [[params.experience.list.items]]
         details = "Analyst marketing automation backend REST API architecture"
         [[params.experience.list.items]]
@@ -119,7 +119,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Research Engineer"
         dates = "Sept 2012 - Jul 2016"
         company = "SoundTalks"
-        details = "SoundTalks focuses on supporting different actors in the livestock industry. Their main product at the time was a device to monitor the respiratory health of fattening pigs based on sound, the 'Pig Cough Monitor'. Given the size of the spin-off company at the time, I had various different responsiblities, ranging from the research of the sound analysis itself, to design of the hardware that was used, customer contact as well as on-site support an installations."
+        details = "SoundTalks focuses on supporting different actors in the livestock industry. Their main product at the time was a device to monitor the respiratory health of fattening pigs based on sound, the 'Pig Cough Monitor'. Given the size of the spin-off company at the time, I had various different responsiblities, ranging from the research of the sound analysis itself, to design of the hardware that was used, customer contacts as well as on-site support for the installations."
         [[params.experience.list.items]]
         details = "Lead research & development Pig Cough Monitor algorithm and software"
         [[params.experience.list.items]]
@@ -138,7 +138,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Project: Quantification of lung pathology based on computed tomography"
         [[params.experience.list.items]]
-        details = "Project: Validation of a noval 3-D volumetric approach to evaluate local bone changes"
+        details = "Project: Validation of a novel 3-D volumetric approach to evaluate local bone changes"
         [[params.experience.list.items]]
         details = "Software tool for integrated registration and segmentation for 2-D and 3-D follow-up analyses of oral and maxillofacial surgery (CBCT)"
         [[params.experience.list.items]]
