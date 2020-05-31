@@ -108,7 +108,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Software engineer / analyst"
         dates = "Jul 2016 - Jul 2018"
         company = "Unleashed"
-        details = "This was my first true job as a software engineer, so I sure did learn a lot here. First, I was part of small cross-functional team to support the marketing efforts, dubbed the 'Mobile Vikings Get & Retain Squad'. Afterwards, this involved into the 'Marketing Automation squad', where I got more into the job of analysis, combined with software development."
+        details = "This was my first true job as a software engineer, so I sure did learn a lot here. First, I was part of small cross-functional team to support the marketing efforts, dubbed the 'Mobile Vikings Get & Retain Squad'. Afterwards, this evolved into the 'Marketing Automation squad', where I got more into the job of analysis, combined with software development."
         [[params.experience.list.items]]
         details = "Analyst marketing automation backend REST API architecture"
         [[params.experience.list.items]]
