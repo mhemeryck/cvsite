@@ -182,3 +182,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-stack-overflow"
         url = "//stackoverflow.com/users/1393391/martyn"
         title = "martyn"
+        [[params.social.list]]
+        icon = "fab fa-strava"
+        url = "//www.strava.com/athletes/26120201"
+        title = "Martijn Hemeryck"
