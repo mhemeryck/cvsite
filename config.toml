@@ -18,14 +18,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         location = "Tongeren, BE"
         [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "+32 474 69 63 25"
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "martijn.hemeryck@gmail.com"
-        [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
         text = "mhemeryck.com"
@@ -99,7 +91,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "CodaBox"
         details = "CodaBox is an energetic scale-up fintech supporting accountants and bookkeepers in delivering their documents in digital format. I mainly work here as a dev on the monolithic python / django backend that takes care of the retrieval, processing and delivering of documents in digital format. I work on both keeping the current stack operational as well as evolving it on a functional but also technical level e.g. to a more service-oriented like architecture."
         [[params.experience.list.items]]
-        details = "Backend dev CODA / SODA / E-invoincing platform"
+        details = "Backend dev CODA / SODA / E-invoicing platform"
         [[params.experience.list.items]]
         details = "Expert python / django"
         [[params.experience.list.items]]
