@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "python/go/c/c++/shell/java"
+        details = "python/go/rust/c/c++/shell/java"
         [[params.skills.list.items]]
         details = "django/flask/vuejs/html/css"
         [[params.skills.list.items]]
@@ -41,8 +41,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "cross-functional communication"
         [[params.skills.list.items]]
         details = "problem solver"
-        [[params.skills.list.items]]
-        details = "agile evangilist"
     [params.education]
         enable = true
         [[params.education.list]]
